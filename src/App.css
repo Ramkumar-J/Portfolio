@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
 /* Navbar */
@@ -18,12 +19,22 @@ span{
 }
 
 /* Home */
-/* .home-content{
+main{
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  color: rgb(161, 60, 60);
-  margin: 0;
-} */
+  /* align-items: center; */
+  height:100vh;
+}
+main .myName{
+  font-size: 5em;
+  letter-spacing: 1px;
+  margin-top:150px;
+  margin-right:50px;
+}
+
+.img-size{
+  height:400px !important;
+  width: 350px;
+  margin-left: 100px;
+  border-radius: 10px;
+}

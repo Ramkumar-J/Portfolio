@@ -2,7 +2,7 @@ import React from 'react'
 
 function EducationCard() {
   return (
-    <div>EducationCard</div>
+    <div></div>
   )
 }
 
