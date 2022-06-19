@@ -8,4 +8,4 @@ function Particlesbackground() {
   )
 }
 
-export default Particlesbackground
+export default Particlesbackground;

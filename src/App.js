@@ -17,7 +17,7 @@ function App() {
     {/* <Particlesbackground></Particlesbackground> */}
     <div className="App">
      <Navbar></Navbar>
-     <main className='container-fluid bg-dark'>
+     <main className='container-fluid'>
      <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/home" element={<Home />}/>

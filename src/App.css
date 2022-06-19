@@ -5,7 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 /* Navbar */
@@ -37,4 +37,9 @@ main .myName{
   width: 350px;
   margin-left: 100px;
   border-radius: 10px;
+}
+
+.vl{
+  border-left: 2px solid green;
+  height: 500px;
 }

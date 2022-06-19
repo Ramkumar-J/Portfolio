@@ -2,12 +2,12 @@ const particlesConfig = {
     autoPlay: true,
     background: {
       color: {
-        value: "#000"
+        value: "#0d47a1"
       },
-      image: "",
-      position: "",
-      repeat: "",
-      size: "",
+      image: "https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg",
+      position: "50% 50%",
+      repeat: "no-repeat",
+      size: "cover",
       opacity: 1
     },
     backgroundMask: {
