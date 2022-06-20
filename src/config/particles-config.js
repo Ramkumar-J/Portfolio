@@ -4,10 +4,10 @@ const particlesConfig = {
       color: {
         value: "#0d47a1"
       },
-      image: "https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg",
-      position: "50% 50%",
-      repeat: "no-repeat",
-      size: "cover",
+      image: "",
+      position: "",
+      repeat: "",
+      size: "",
       opacity: 1
     },
     backgroundMask: {

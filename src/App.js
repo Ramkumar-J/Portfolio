@@ -16,8 +16,8 @@ function App() {
     <BrowserRouter>
     {/* <Particlesbackground></Particlesbackground> */}
     <div className="App">
-     <Navbar></Navbar>
-     <main className='container-fluid'>
+    <Navbar></Navbar>
+     <main className='container-fluid m-0 p-0'>
      <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/home" element={<Home />}/>
