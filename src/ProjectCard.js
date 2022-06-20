@@ -14,18 +14,6 @@ function ProjectCard() {
       tool5:"Nodejs",
       tool6:"mongoDB",
     },
-    {
-      image:"https://cdn.shopify.com/s/files/1/1789/7273/files/Pinterest_Guide.png?format=jpg&quality=90&v=1578568021",
-      title:"Pinterest clone",
-      list1:"IE tracker is used to Track your Incomes and Expenses",
-      list2:"IE tracker",
-      tool1:"HTML",
-      tool2:"CSS",
-      tool3:"JS",
-      tool4:"Reactjs",
-      tool5:"Nodejs",
-      tool6:"mongoDB",
-    }
   ]
   return (
     <div className='card'>
