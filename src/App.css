@@ -16,14 +16,14 @@ main{
 }
 
 /* Navbar */
-span{
+/* span{
   font-family: 'Tiro Tamil', serif;
   font-size: 40px !important;
   letter-spacing: 1px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* Home */
 .home-content{
@@ -37,13 +37,14 @@ span{
   width: 100%;
   height: 100vh;
   object-fit:cover;
+  background-color: black;
 }
 
 .contents{
   position: absolute;
   width: 100%;
   height: 100vh;
-  top:40px;
+  top:70px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -66,7 +67,14 @@ span{
 
 .img-size{
   height:400px !important;
-  width: 350px;
-  margin-left: 100px;
+  width: 400px;
+  /* margin-left: 100px; */
   border-radius: 10px;
+  background-color: darkgrey;
+}
+
+
+.project-image{
+  height:250px;
+  width: 100%;
 }

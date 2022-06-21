@@ -7,21 +7,21 @@ function About() {
       <div className='container'>
       <div className='row mt-3'>
         <div className="col-lg-12">
-          <h1 className='text-center text-warning fw-bold'>About</h1>
+        <h1 className="text-center text-primary fw-bolder">About</h1>
         </div>
         </div>
       <div className='row mt-5'>
-        <div className="col-lg-6">
-          <p>Hello! I'm Mayank, a Software Engineer from Kolkata, India.</p>
+        <div className="col-lg-6 fs-5">
+          <p>Hello! I'm <span className='fw-bolder'>Ramkumar</span>, a <span className='fw-bolder'>Fullstack developer</span> from Kallakurichi(Dt), Tamilnadu, India.</p>
 
-<p>An experienced mobile app developer who has a track record of successfully creating Android apps that are both well-received and commercially viable. Have published 10+ apps on Play Store with over 5 million combined downloads.</p>
+<p>I'm a Passionate and hardworking person love to work in App development. I'm a Fullstack developer having right mix of knowledge in both Frontend as well as Backend Technologies.</p>
 
-<p>I enjoy working on side projects to upskill myself and learn new stuff. Not only skilled in Android Development, but also proficient in Back-end development and Cross Platform App Development. I have also dabbled in Web technologies like React and built some projects using it, including this website.</p>
-<audio controls>
+<p>I enjoy working on these technologies to upskill myself and learn new stuff. I have also dabbled in Web technologies like React and built some projects using it, including this website.</p>
+{/* <audio controls>
   <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/ogg"/>
   <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg"/>
 Your browser does not support the audio element.
-</audio>
+</audio> */}
 
         </div>
         <div className="col-lg-6">
