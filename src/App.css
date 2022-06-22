@@ -52,6 +52,19 @@ main{
   color: white !important;
 }
 
+@media(max-width:768px){
+  .contents{
+    position: absolute;
+    top:320px;
+  }
+  .bgvideo{
+    height:1200px;
+  }
+  .myName{
+    font-size: 3em !important;
+    letter-spacing: 1px;
+  }
+}
 .myName{
   font-size: 5em;
   letter-spacing: 1px;
@@ -66,8 +79,8 @@ main{
 } */
 
 .img-size{
-  height:400px !important;
-  width: 400px;
+  height:425px !important;
+  width: 450px;
   /* margin-left: 100px; */
   border-radius: 10px;
   background-color: darkgrey;

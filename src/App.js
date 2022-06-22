@@ -9,15 +9,14 @@ import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Education from "./Education";
-import Particlesbackground from './Particlesbackground';
+import Experience from './Experience';
 
 function App() {
   return (
     <BrowserRouter>
-    {/* <Particlesbackground></Particlesbackground> */}
     <div className="App">
     <Navbar></Navbar>
-     <main className='container-fluid m-0 p-0'>
+     <main className='container-fluid bg-secondary bg-opacity-25 h-100 w-100 m-0 p-0'>
      <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/home" element={<Home />}/>
@@ -25,6 +24,7 @@ function App() {
       <Route path="/skills" element={<Skills />}/>
       <Route path="/projects" element={<Projects />}/>
       <Route path="/education" element={<Education />}/>
+      <Route path="/experience" element={<Experience />}/>
      </Routes>
      </main>
     </div>
