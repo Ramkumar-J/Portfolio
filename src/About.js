@@ -7,7 +7,7 @@ function About() {
       <div className='container'>
       <div className='row mt-3'>
         <div className="col-lg-12">
-        <h1 className="text-center text-primary fw-bolder">About</h1>
+        <h1 className="text-center text-primary fw-bolder">About me</h1>
         </div>
         </div>
       <div className='row mt-5'>

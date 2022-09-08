@@ -12,7 +12,7 @@ function EducationCard(props) {
     <div className='container'>
     <div className='education-info border-start border-3 border-dark p-3'>
       <h3 className='course-title text-danger fw-bolder'>{props.education.title}</h3>
-      <h5 className='course-'>{props.education.institute}</h5>
+      <h5 className=''>{props.education.institute}</h5>
       <p className='mb-0'>{props.education.duration}</p>
       <p className='mt-1'>{props.education.marks}</p>
     </div>

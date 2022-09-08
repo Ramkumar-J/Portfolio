@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 function Navbar(){
     return(
-        <header class="container-fluid bg-dark">
+        <header class="container-fluid bg-transparent">
             <nav class="navbar navbar-expand-md navbar-dark container">
                 <Link className="navbar-brand" to="/">
                 {/* <img class="img-fluid ms-5" src="https://img.icons8.com/clouds/50/r--v1.png"></img> */}
