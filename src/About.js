@@ -14,7 +14,7 @@ function About() {
       <div className="col-lg-6 mb-5">
           <img className='img-fluid img-size ms-4' src="./assets/23925(2).jpg"></img>
         </div>
-        <div className="col-lg-6 fs-5 mb-5">
+        <div className="col-lg-6 fs-5 mb-5 text-white">
           <p className='mt-2'>Hello! I'm <span className='fw-bolder'>Ramkumar</span>, a <span className='fw-bolder'>Fullstack developer</span> from Kallakurichi(Dt), Tamilnadu, India.</p>
 
 <p className='mt-5'>I'm a Passionate and hardworking person love to work in App development. I'm a Fullstack developer having right mix of knowledge in both Frontend as well as Backend Technologies.</p>
