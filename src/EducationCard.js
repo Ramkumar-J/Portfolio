@@ -9,8 +9,8 @@ function EducationCard(props) {
     //     <p className='card-text'>Jan 2022-June 2022</p>
     //   </div>
     // </div>
-    <div className='container'>
-    <div className='education-info border-start border-3 border-dark p-3'>
+    <div className='container text-white'>
+    <div className='education-info border-start border-3 border-secondary p-3'>
       <h3 className='course-title text-danger fw-bolder'>{props.education.title}</h3>
       <h5 className=''>{props.education.institute}</h5>
       <p className='mb-0'>{props.education.duration}</p>

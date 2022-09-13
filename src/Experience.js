@@ -2,16 +2,16 @@ import React from "react";
 
 function Experience() {
   return (
-    <div className="container">
+    <div className="container text-light">
       <div className="row mt-4">
         <div className="col-lg-12">
-          <h1 className="text-dark text-center text-uppercase">Experience</h1>
+          <h1 className="text-primary text-center text-uppercase">Experience</h1>
         </div>
       </div>
       <div className="row mt-4">
         <div className="col-lg-12">
-          <h3 className="text-dark">Fullstack developer</h3>
-          <h5 className="text-dark">
+          <h3 className="text-warning">Fullstack developer</h3>
+          <h5 className="text-secondary">
             Guvi Geek Technologies Pvt.Ltd, Chennai, Tamilnadu, India{" "}
             <span className="fs-6">2022-Present</span>
           </h5>
@@ -22,8 +22,8 @@ function Experience() {
       </div>
       <div className="row mt-4">
         <div className="col-lg-12">
-          <h3 className="text-dark">FAE and Automation Engineer</h3>
-          <h5 className="text-dark">
+          <h3 className="text-warning">FAE and Automation Engineer</h3>
+          <h5 className="text-secondary">
             Bharat FIH Pvt.Ltd (Foxconn), Chennai, Tamilnadu,India{" "}
             <span className="fs-6">10/2018 – 11/2021</span>
           </h5>

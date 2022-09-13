@@ -17,7 +17,7 @@ function App() {
     <div className="App main-bg">
     <Navbar></Navbar>
      {/* <main className='container-fluid bg-secondary bg-opacity-25 h-100 w-100 m-0 p-0'> */}
-     <main className='container-fluid m-0 p-0 '>
+     <main className='container-fluid m-0 p-0 main-bg'>
      <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/home" element={<Home />}/>
