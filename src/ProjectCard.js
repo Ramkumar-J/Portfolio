@@ -1,14 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function ProjectCard(props) {
+  const [projectinfo,setProjectinfo] = useState(false);
   return (
     <div className="card">
+      <div className="one">
       <a href={props.project.deploylink}>
       <img
         className="card-img-top project-image"
         src={props.project.image}
+        onMouseEnter={() => setProjectinfo(true)}
+        onMouseLeave={() => setProjectinfo(false)}
       ></img></a>
+      <div className={`two ${projectinfo ? "" : "visually-hidden"}`}>
+      <h4>Frontend</h4>
+      <i class="bi bi-github"></i>
+        <h4>Backend</h4>
+        <i class="bi bi-github"></i>
+        <h4>Livedemo</h4>
+        <img className='img-fluid' src="https://img.icons8.com/glyph-neue/20/github.png"></img>
+      </div>
+      </div>
       <div className="card-body">
         <h2 className="card-title text-dark text-center">
           {props.project.title}

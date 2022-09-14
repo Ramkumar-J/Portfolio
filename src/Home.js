@@ -19,31 +19,31 @@ function Home() {
         <div className='contents'> 
         {/* <img className='home-img' src="https://ayushb.me/images/laptop.png"></img> */}
         <img className='home-img' src="https://i.pinimg.com/564x/53/aa/eb/53aaebede8803acec60d5f11f3295bfb.jpg"></img>
-      <p className='mb-0'>Hi, I am</p> 
+      <p className='mb-0 mt-3'>Hi, I am</p> 
       <h1 className='myName mb-0'>Ramkumar J</h1>
       {/* <h4>Fullstack developer</h4> */}
-      <Typewriter className="wordtyper"
+      <Typewriter
       onInit={(typewriter) => {
-        typewriter.typeString("I'm a Full stack developer")
+        typewriter.typeString(`I'm a <span style="color: crimson;font-weight:bold;font-size:25px;">Full stack developer</span>`)
         .pauseFor(2000)
         .deleteChars(20)
-        .typeString("MERN stack developer")
+        .typeString(`<span style="color: crimson;font-weight:bold;font-size:25px;">MERN stack developer</span>`)
         .pauseFor(2000)
         .deleteChars(20)
-        .typeString("Frontend developer")
+        .typeString(`<span style="color: crimson;font-weight:bold;font-size:25px;">Frontend developer</span>`)
         .pauseFor(2000)
         .deleteChars(18)
-        .typeString("React developer")
+        .typeString(`<span style="color: crimson;font-weight:bold;font-size:25px;">React developer</span>`)
         .pauseFor(2000)
-        .deleteAll()
-        // .typeString("I'm a React developer")
+        // .deleteChars(15)
+        // .typeString("Full stack developer")
         .start();
       }}
-      // options={{
-      //   strings: ["I'm a Full stack developer", "I'm a MERN stack developer", "I'm a Frontend developer", "I'm a React developer"],
-      //   autoStart: true,
-      //   loop: true,
-      // }}
+      options={{
+        // strings: ["I'm a Full stack developer", "I'm a MERN stack developer", "I'm a Frontend developer", "I'm a React developer"],
+        autoStart: true,
+        loop: true,
+      }}
       />
       {/* <Typed
           strings={[

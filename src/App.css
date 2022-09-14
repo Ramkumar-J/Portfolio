@@ -151,6 +151,18 @@ main{
   background-color: #2c2c6c !important;
 } */
 
-.wordtyper{
-  color: coral;
+.one{
+  position: relative;
+}
+
+.two{
+  position: absolute;
+  bottom:50%;
+  right:50%;
+  /* top:50%; */
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
