@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 function ProjectCard(props) {
   const [projectinfo,setProjectinfo] = useState(false);
   return (
-    <div className="card">
-      <div className="one">
+    <div className="card card-bg">
+      <div className="one" >
       {/* <a href={props.project.deploylink}> */}
       <img
         className="card-img-top project-image"
@@ -54,8 +54,8 @@ Livedemo
         <img className='img-fluid' src="https://img.icons8.com/glyph-neue/20/github.png"></img> */}
       </ul>
       </div>
-      <div className="card-body">
-        <h2 className="card-title text-dark text-center">
+      <div className="card-body mt-2">
+        <h2 className="card-title fw-bolder text-center">
           {props.project.title}
         </h2>
         <ul className="card-list">

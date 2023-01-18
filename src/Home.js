@@ -13,10 +13,12 @@ import Typewriter from "typewriter-effect";
 function Home() {
   return (
     <>
-      <div className='home-content home-bg'>
+      <div className='container-fluid m-0 p-0 home-content home-bg'>
         <div className='overlay'></div>
-        <video className='bgvideo' src="./assets/Landingbgvideo.mp4" autoPlay loop muted></video>
-        <div className='contents'> 
+        {/* <video className='bgvideo' src="./assets/Landingbgvideo.mp4" autoPlay loop muted></video> */}
+        <div className='row'>
+          <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6'>
+          <div className='contents'> 
         {/* <img className='home-img' src="https://ayushb.me/images/laptop.png"></img> */}
         <img className='home-img' src="https://i.pinimg.com/564x/53/aa/eb/53aaebede8803acec60d5f11f3295bfb.jpg"></img>
       <p className='mb-0 mt-3'>Hi, I am</p> 
@@ -64,6 +66,13 @@ function Home() {
       </div>
       {/* <h2>fullstack web developer</h2> */}
       </div>
+          </div>
+          <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 home-main-img'>
+          <img className='img-fluid img-main ms-4' src="./assets/23925(2).jpg"></img>
+          </div>
+        </div>
+        
+      {/* <img className='img-fluid img-main ms-4' src="./assets/23925(2).jpg"></img> */}
       <About className='main-bg'></About>
       {/* <hr className='text-danger'></hr>
       <hr className='text-danger'></hr> */}

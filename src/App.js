@@ -14,7 +14,7 @@ import Experience from './Experience';
 function App() {
   return (
     <BrowserRouter>
-    <div className="App main-bg">
+    <div className="App container-fluid m-0 p-0 main-bg">
     <Navbar></Navbar>
      {/* <main className='container-fluid bg-secondary bg-opacity-25 h-100 w-100 m-0 p-0'> */}
      <main className='container-fluid m-0 p-0 main-bg'>

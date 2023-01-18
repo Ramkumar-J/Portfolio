@@ -36,7 +36,7 @@ function Projects() {
       image:
         "https://thumbs.dreamstime.com/b/yummy-grilled-chicken-burger-double-cutlet-fries-cola-wooden-table-side-view-hamburger-french-fast-food-concept-208658076.jpg",
       deploylink:"https://leafy-tiramisu-d395e5.netlify.app/",
-      title: "SandBur",
+      title: "SandBurg",
       list1: "It is the house Sandwich and Burgers",
       list2: "You can choose your favorite one order it we delivered faster",
       tool1: "HTML",
