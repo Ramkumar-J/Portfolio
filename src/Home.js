@@ -19,8 +19,8 @@ function Home() {
         {/* <div className='row'> */}
           {/* <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6'> */}
           <div className='contents'> 
-        <img className='home-img' src="https://i.pinimg.com/564x/53/aa/eb/53aaebede8803acec60d5f11f3295bfb.jpg"></img>
-        {/* <img className='home-img' src="./assets/23925_1_-min-removebg-preview.png"></img> */}
+        {/* <img className='home-img' src="https://i.pinimg.com/564x/53/aa/eb/53aaebede8803acec60d5f11f3295bfb.jpg"></img> */}
+        <img className='home-img' src="./assets/23925_1_-min-removebg-preview.png"></img>
       <p className='mb-0 mt-3'>Hi, I am</p> 
       <h1 className='myName mb-0'>Ramkumar J</h1>
       {/* <h4>Fullstack developer</h4> */}
