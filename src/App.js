@@ -14,10 +14,10 @@ import Experience from './Experience';
 function App() {
   return (
     <BrowserRouter>
-    <div className="App container-fluid m-0 p-0 main-bg">
+    <div className="App container-fluid m-0 p-0">
     <Navbar></Navbar>
      {/* <main className='container-fluid bg-secondary bg-opacity-25 h-100 w-100 m-0 p-0'> */}
-     <main className='container-fluid m-0 p-0 main-bg'>
+     <main className='container-fluid m-0 p-0'>
      <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/home" element={<Home />}/>
@@ -25,7 +25,7 @@ function App() {
       <Route path="/skills" element={<Skills />}/>
       <Route path="/projects" element={<Projects />}/>
       <Route path="/education" element={<Education />}/>
-      <Route path="/experience" element={<Experience />}/>
+      <Route path="/contact" element={<Experience />}/>
      </Routes>
      </main>
     </div>

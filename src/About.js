@@ -7,12 +7,12 @@ function About() {
       <div className='container'>
       <div className='row mt-3'>
         <div className="col-lg-12">
-        <h1 className="text-center text-primary fw-bolder">About me</h1>
+        <h1 className="text-center text-primary fw-bolder">"About me"</h1>
         </div>
         </div>
       <div className='row mt-5'>
-      <div className="col-lg-6 mb-5">
-          <img className='img-fluid img-size ms-4' src="./assets/23925(2).jpg"></img>
+      <div className="col-lg-6 mb-5 about-img-area">
+      <img className='about-img img-fluid' src="./assets/23925_1_-min-removebg-preview.png"></img>
         </div>
         <div className="col-lg-6 fs-5 mb-5 text-white">
           {/* <div className='row'>

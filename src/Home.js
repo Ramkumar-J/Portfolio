@@ -13,14 +13,14 @@ import Typewriter from "typewriter-effect";
 function Home() {
   return (
     <>
-      <div className='container-fluid m-0 p-0 home-content home-bg'>
+      <div className='container-fluid m-0 p-0 home-content'>
         <div className='overlay'></div>
         {/* <video className='bgvideo' src="./assets/Landingbgvideo.mp4" autoPlay loop muted></video> */}
-        <div className='row'>
-          <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6'>
+        {/* <div className='row'> */}
+          {/* <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6'> */}
           <div className='contents'> 
-        {/* <img className='home-img' src="https://ayushb.me/images/laptop.png"></img> */}
         <img className='home-img' src="https://i.pinimg.com/564x/53/aa/eb/53aaebede8803acec60d5f11f3295bfb.jpg"></img>
+        {/* <img className='home-img' src="./assets/23925_1_-min-removebg-preview.png"></img> */}
       <p className='mb-0 mt-3'>Hi, I am</p> 
       <h1 className='myName mb-0'>Ramkumar J</h1>
       {/* <h4>Fullstack developer</h4> */}
@@ -60,17 +60,17 @@ function Home() {
       {/* <h4>Welcome to my Portfolio</h4> */}
       <div className='my-icons mt-3'>
         <a href="https://github.com/Ramkumar-J"><img className='bg-white rounded-circle ms-0' src="https://img.icons8.com/ios-glyphs/50/github.png"></img></a>
-        
         <a href="https://www.linkedin.com/in/ramkumar-j-803baa201/"><img className='bg-white rounded-circle ms-5' src="https://img.icons8.com/fluency/50/linkedin-circled.png"></img></a>
+        {/* <a href="https://www.frontendmentor.io/profile/Ramkumar-J"><img className='bg-white rounded-circle ms-0 h-25 w-25' src="https://cdn.worldvectorlogo.com/logos/frontendmentor-logo.svg"></img></a> */}
         {/* <img className='bg-white rounded-circle ms-5' src="https://img.icons8.com/color/50/gmail-new.png"></img> */}
       </div>
       {/* <h2>fullstack web developer</h2> */}
       </div>
-          </div>
-          <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 home-main-img'>
+          {/* </div> */}
+          {/* <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 home-main-img'>
           <img className='img-fluid img-main ms-4' src="./assets/23925(2).jpg"></img>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
         
       {/* <img className='img-fluid img-main ms-4' src="./assets/23925(2).jpg"></img> */}
       <About className='main-bg'></About>
