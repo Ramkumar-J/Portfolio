@@ -6,7 +6,7 @@ function Navbar(){
             <nav class="navbar navbar-expand-md navbar-light">
                 <Link className="navbar-brand" to="/">
                 {/* <img class="img-fluid ms-5" src="https://img.icons8.com/clouds/50/r--v1.png"></img> */}
-                <h1 className="ms-5 heading">Portfolio</h1>
+                <h1 className="ms-5 heading">Ram<span>Kumar</span></h1>
                 </Link>
                 {/* <span className="text-warning ms-2">Ramkumar</span> */}
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"><span class="navbar-toggler-icon"></span></button>

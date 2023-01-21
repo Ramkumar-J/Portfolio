@@ -22,7 +22,7 @@ function ProjectCard(props) {
         <h4>Livedemo</h4>
         <img className='img-fluid' src="https://img.icons8.com/glyph-neue/20/github.png"></img>
       </div> */}
-      <ul className={`two ${projectinfo ? "" : "visually-hidden"}`}>
+      {/* <ul className={`two ${projectinfo ? "" : "visually-hidden"}`}>
       Frontend
       <li className="three"> 
         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-github" viewBox="0 0 16 16">
@@ -45,20 +45,25 @@ Livedemo
   <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
 </svg>
 </a> 
-</li>
+</li> */}
     
      
         {/* <h4>Backend</h4>
         <i class="bi bi-github"></i>
         <h4>Livedemo</h4>
         <img className='img-fluid' src="https://img.icons8.com/glyph-neue/20/github.png"></img> */}
-      </ul>
+      {/* </ul> */}
       </div>
       <div className="card-body mt-2">
-        <h2 className="card-title fw-bolder text-center">
+        <h2 className="card-title fw-bolder">
           {props.project.title}
         </h2>
-        <ul className="card-list">
+        <p>{props.project.tools}</p>
+        <div className="project-btn-area">
+          <button className="btn btn-warning project-btn"><a href='#'><img className="img-fluid" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/20/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-color-tal-revivo.png"></img> Live Demo</a></button>
+          <button className="btn btn-warning project-btn"><a href='#'><img className="img-fluid" src="https://img.icons8.com/3d-fluency/25/github.png"></img> Live Code</a></button>
+        </div>
+        {/* <ul className="card-list">
           <li>{props.project.list1}</li>
           <li>{props.project.list2}</li>
         </ul>
@@ -81,7 +86,7 @@ Livedemo
           <span className="badge bg-danger rounded-pill text-dark fs-6 ms-2">
             {props.project.tool6}
           </span>
-        </p>
+        </p> */}
       </div>
     </div>
   );
