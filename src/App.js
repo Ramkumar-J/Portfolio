@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "/node_modules/bootstrap/dist/js/bootstrap.min.js";
+import "/node_modules/bootstrap-icons/font/bootstrap-icons.css"
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Navbar from './Navbar';
 import Home from './Home';
