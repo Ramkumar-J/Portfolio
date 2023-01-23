@@ -13,7 +13,7 @@ function Skills() {
           <h3 className='text-center text-danger fw-bolder'>Frontend Tools</h3>
         </div>
       </div>
-      <div className='row mt-2 text-white'>
+      <div className='row mt-2 text-white' data-aos="fade-right" data-aos-duration="600">
         <div className='col-4 col-sm-4 col-md-2 col-lg-2'>
           <img className='img-fluid skill-logo' src="https://img.icons8.com/color/100/html-5--v1.png"></img>
           <h6 className='ms-4  fw-bolder'>HTML5</h6>
@@ -44,7 +44,7 @@ function Skills() {
           <h3 className='text-center text-danger fw-bolder'>Backend Tools</h3>
         </div>
       </div>
-      <div className='row mt-2 text-white'>
+      <div className='row mt-2 text-white' data-aos="fade-right" data-aos-duration="600">
         <div className='col-4 col-sm-4 col-md-2 col-lg-2'>
           <img className='img-fluid skill-logo' src="https://img.icons8.com/color/100/nodejs.png"></img>
           <h6 className='ms-4 fw-bolder'>Nodejs</h6>
@@ -63,7 +63,7 @@ function Skills() {
           <h3 className='text-center text-danger fw-bolder'>Version Control Tools</h3>
         </div>
       </div>
-      <div className='row mt-2 text-white'>
+      <div className='row mt-2 text-white' data-aos="fade-right" data-aos-duration="600">
         <div className='col-4 col-sm-4 col-md-2 col-lg-2'>
           <img className='img-fluid skill-logo' src="https://img.icons8.com/color/100/git.png"></img>
           <h6 className='ms-4 fw-bolder'>Git</h6>

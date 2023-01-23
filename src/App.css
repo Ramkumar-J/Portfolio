@@ -248,7 +248,7 @@ color: chocolate !important;
 
 /* Navbar Styles */
 .heading{
-  font-size: 25px;
+  font-size: 30px;
   color: hotpink;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -421,4 +421,16 @@ form{
 .social-text{
   margin-top: 0px;
   margin-bottom: 20px;
+}
+
+
+/* Footer Page */
+.footer-container{
+  background-color: rgb(36, 36, 36);
+}
+.footer-text{
+  text-align: center;
+  padding: 30px;
+  color: white;
+  font-size: 22px;
 }

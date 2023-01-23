@@ -3,6 +3,8 @@ import './App.css';
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "/node_modules/bootstrap/dist/js/bootstrap.min.js";
 import "/node_modules/bootstrap-icons/font/bootstrap-icons.css"
+// import "/node_modules/aos/dist/aos.css";
+// import "/node_modules/aos/dist/aos.js";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Navbar from './Navbar';
 import Home from './Home';
@@ -11,6 +13,8 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Education from "./Education";
 import Experience from './Experience';
+import Footer from './Footer';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -26,7 +30,7 @@ function App() {
       <Route path="/skills" element={<Skills />}/>
       <Route path="/projects" element={<Projects />}/>
       <Route path="/education" element={<Education />}/>
-      <Route path="/contact" element={<Experience />}/>
+      <Route path="/contact" element={<Contact />}/>
      </Routes>
      </main>
     </div>

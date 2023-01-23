@@ -1,8 +1,9 @@
 import React from 'react';
+import { motion } from "framer-motion"
 
-
-function About() {
+function About({ isVisible }) {
   return (
+    // <motion.div animate={{ opacity: isVisible ? 1 : 0 }} />
     // <main className='container-fluid bg-dark'>
       <div className='container'>
       <div className='row mt-3'>
@@ -11,11 +12,18 @@ function About() {
         </div>
         </div>
       <div className='row mt-3'>
-      <div className="col-lg-6 mb-2">
+      <div className="col-lg-6 mb-2"  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
       {/* <img className='about-img img-fluid' src="./assets/23925_1_-min-removebg-preview.png"></img> */}
       <img className='about-img' src="https://t4.ftcdn.net/jpg/02/84/69/23/360_F_284692342_FkKunloWDjhyfVsmUxxnGJQjR3fiOZ4U.jpg"></img>
         </div>
-        <div className="col-lg-6 mb-2 fs-5 text-white">
+        <div className="col-lg-6 mb-2 fs-5 text-white" data-aos="fade-left"
+    //  data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500"
+     data-aos-easing="ease-in-sine"
+     >
           {/* <div className='row'>
             <div className="col-lg-6">
               <h4>Experience</h4>

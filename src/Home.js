@@ -9,6 +9,7 @@ import Skills from './Skills';
 // import Landingbgvideo from "./assets/Landingbgvideo.mp4";
 // import Typed from "react-typed";
 import Typewriter from "typewriter-effect";
+import Footer from './Footer';
 
 function Home() {
   return (
@@ -75,6 +76,7 @@ function Home() {
         {/* </div> */}
         
       {/* <img className='img-fluid img-main ms-4' src="./assets/23925(2).jpg"></img> */}
+      {/* <motion.div animate={{ opacity: isVisible ? 1 : 0 }} /> */}
       <About className='main-bg'></About>
       {/* <hr className='text-danger'></hr>
       <hr className='text-danger'></hr> */}
@@ -83,6 +85,7 @@ function Home() {
       <Education></Education>
       {/* <Experience></Experience> */}
       <Contact></Contact>
+      <Footer></Footer>
       </div>
       </>
 

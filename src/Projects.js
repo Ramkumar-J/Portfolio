@@ -253,7 +253,7 @@ function Projects() {
         </div>
       </div>
       <div className="row mt-3">
-        <div className="col-lg-12 d-flex justify-content-center">
+        <div className="col-lg-12 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="600">
           <button className="category-btn" onClick={() => setFilter(projectData)}>All</button>
         <button className="category-btn" onClick={() => filterProduct("HTML,CSS")}>HTML&CSS</button>
           <button className="category-btn" onClick={() => filterProduct("JavaScript")}>JavaScript</button>
@@ -266,7 +266,7 @@ function Projects() {
           return (
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-5">
               {/* <ProjectCard project={pData}></ProjectCard> */}
-              <div className="card card-bg">
+              <div className="card card-bg" data-aos="fade-right">
       <div className="one">
       {/* <a href={props.project.deploylink}> */}
       <img
