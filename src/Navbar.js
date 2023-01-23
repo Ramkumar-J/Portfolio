@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navbar(){
     return(
         <header class="container-fluid bg-light">
-            <nav class="navbar navbar-expand-md navbar-light container">
+            <nav class="navbar navbar-expand-md navbar-light">
                 <Link className="navbar-brand" to="/">
                 {/* <img class="img-fluid ms-5" src="https://img.icons8.com/clouds/50/r--v1.png"></img> */}
                 <h1 className="ms-5 heading">Ram<span>Kumar</span></h1>
