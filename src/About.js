@@ -1,7 +1,6 @@
 import React from 'react';
-import { motion } from "framer-motion"
 
-function About({ isVisible }) {
+function About() {
   return (
     // <motion.div animate={{ opacity: isVisible ? 1 : 0 }} />
     // <main className='container-fluid bg-dark'>
