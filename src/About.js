@@ -17,7 +17,7 @@ function About() {
       {/* <img className='about-img img-fluid' src="./assets/23925_1_-min-removebg-preview.png"></img> */}
       <img className='about-img' src="https://t4.ftcdn.net/jpg/02/84/69/23/360_F_284692342_FkKunloWDjhyfVsmUxxnGJQjR3fiOZ4U.jpg"></img>
         </div>
-        <div className="col-lg-6 mb-2 fs-5 text-white" data-aos="fade-left"
+        <div className="col-lg-6 mb-2 fs-5 text-white" data-aos="fade-right"
     //  data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="500"

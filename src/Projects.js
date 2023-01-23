@@ -253,7 +253,7 @@ function Projects() {
         </div>
       </div>
       <div className="row mt-3">
-        <div className="col-lg-12 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="600">
+        <div className="col-lg-12 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="600">
           <button className="category-btn" onClick={() => setFilter(projectData)}>All</button>
         <button className="category-btn" onClick={() => filterProduct("HTML,CSS")}>HTML&CSS</button>
           <button className="category-btn" onClick={() => filterProduct("JavaScript")}>JavaScript</button>

@@ -46,14 +46,14 @@ function Contact() {
   return (
     <div className='container text-white'>
       <h1 className='text-center text-primary mb-3'>Get In Touch</h1>
-      <div className='row mt-5' data-aos="fade-left">
+      <div className='row mt-5' data-aos="fade-right">
       <ContactInfo></ContactInfo>
         {/* <ContactInfo socialInfo={socialInfo}></ContactInfo> */}
         {/* <ContactInfo></ContactInfo>
         <ContactInfo></ContactInfo> */}
       </div>
       <div className='row'>
-      <div className='col-lg-6 order-md-2 order-lg-2 order-xl-2 order-xxl-2' data-aos="fade-left">
+      <div className='col-lg-6 order-md-2 order-lg-2 order-xl-2 order-xxl-2' data-aos="fade-right">
             <img className='img-fluid' src="https://kamalesh-portfolio-k13h11.netlify.app/assets//20220330_130548.png"></img>
         </div>
         <div className='col-lg-6 order-md-1 order-lg-1 order-xl-1 order-xxl-1' data-aos="fade-right">
