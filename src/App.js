@@ -6,15 +6,15 @@ import "/node_modules/bootstrap-icons/font/bootstrap-icons.css"
 // import "/node_modules/aos/dist/aos.css";
 // import "/node_modules/aos/dist/aos.js";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import Navbar from './Navbar';
-import Home from './Home';
-import About from "./About";
-import Skills from "./Skills";
-import Projects from "./Projects";
-import Education from "./Education";
+import Navbar from './components/Navbar';
+import Home from './routes/Home';
+import About from "./routes/About";
+import Skills from "./routes/Skills";
+import Projects from "./routes/Projects";
+import Education from "./routes/Education";
 import Experience from './Experience';
-import Footer from './Footer';
-import Contact from './Contact';
+import Footer from './components/Footer';
+import Contact from './routes/Contact';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
     <div className="App container-fluid m-0 p-0">
     <Navbar></Navbar>
      {/* <main className='container-fluid bg-secondary bg-opacity-25 h-100 w-100 m-0 p-0'> */}
-     <main className='container-fluid m-0 p-0'>
+     {/* <main className='container-fluid m-0 p-0'> */}
      <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/home" element={<Home />}/>
@@ -32,7 +32,7 @@ function App() {
       <Route path="/education" element={<Education />}/>
       <Route path="/contact" element={<Contact />}/>
      </Routes>
-     </main>
+     {/* </main> */}
     </div>
     </BrowserRouter>
   );
