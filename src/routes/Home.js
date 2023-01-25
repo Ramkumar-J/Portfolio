@@ -1,56 +1,59 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import About from './About';
-import Contact from './Contact';
-import Education from './Education';
-import Experience from '../Experience';
-import Projects from './Projects';
-import Skills from './Skills';
+import React from "react";
+import About from "./About";
+import Contact from "./Contact";
+import Education from "./Education";
+import Projects from "./Projects";
+import Skills from "./Skills";
 // import Landingbgvideo from "./assets/Landingbgvideo.mp4";
 // import Typed from "react-typed";
 import Typewriter from "typewriter-effect";
-import Footer from '../components/Footer';
+import Footer from "../components/Footer";
 
 function Home() {
   return (
     <>
-      <div className='container-fluid m-0 p-0 home-content'>
-        <div className='overlay'></div>
-        {/* <video className='bgvideo' src="./assets/Landingbgvideo.mp4" autoPlay loop muted></video> */}
-        {/* <div className='row'> */}
-          {/* <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6'> */}
-          <div className='contents'> 
-        {/* <img className='home-img' src="https://i.pinimg.com/564x/53/aa/eb/53aaebede8803acec60d5f11f3295bfb.jpg"></img> */}
-        <img className='home-img' src="./assets/images/23925_1_-min-removebg-preview.png"></img>
-        <p className='mb-0 mt-3 fs-5'>Welcome to My Portfolio</p> 
-      {/* <p className='mb-0 mt-0'>Hi, I am</p>  */}
-      <h1 className='myName mb-0'>Ramkumar J</h1>
-      {/* <h1 className='myName mb-0'><span className='fs-6'>I am</span> Ram<span>kumar J</span></h1> */}
-      {/* <h4>Fullstack developer</h4> */}
-      <Typewriter
-      onInit={(typewriter) => {
-        typewriter.typeString(`I'm a <span style="color: crimson;font-weight:bold;font-size:25px;">Full stack developer</span>`)
-        .pauseFor(2000)
-        .deleteChars(20)
-        .typeString(`<span style="color: crimson;font-weight:bold;font-size:25px;">MERN stack developer</span>`)
-        .pauseFor(2000)
-        .deleteChars(20)
-        .typeString(`<span style="color: crimson;font-weight:bold;font-size:25px;">Frontend developer</span>`)
-        .pauseFor(2000)
-        .deleteChars(18)
-        .typeString(`<span style="color: crimson;font-weight:bold;font-size:25px;">React developer</span>`)
-        .pauseFor(2000)
-        // .deleteChars(15)
-        // .typeString("Full stack developer")
-        .start();
-      }}
-      options={{
-        // strings: ["I'm a Full stack developer", "I'm a MERN stack developer", "I'm a Frontend developer", "I'm a React developer"],
-        autoStart: true,
-        loop: true,
-      }}
-      />
-      {/* <Typed
+      <div className="container-fluid m-0 p-0">
+        <div className="home-contents">
+          <img
+            className="my-img"
+            src="./assets/images/my_image.png"
+            alt="Myimage"
+          ></img>
+          <p className="mb-0 mt-3 fs-5">Welcome to My Portfolio I'm</p>
+          <h1 className="my-name mb-0">Ramkumar J</h1>
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter
+                .typeString(
+                  `I'm a <span style="color: crimson;font-weight:bold;font-size:25px;">Frontend developer</span>`
+                )
+                .pauseFor(2000)
+                .deleteChars(18)
+                .typeString(
+                  `<span style="color: crimson;font-weight:bold;font-size:25px;">React developer</span>`
+                )
+                .pauseFor(2000)
+                .deleteChars(15)
+                .typeString(
+                  `<span style="color: crimson;font-weight:bold;font-size:25px;">MERN stack developer</span>`
+                )
+                .pauseFor(2000)
+                .deleteChars(20)
+                .typeString(
+                  `<span style="color: crimson;font-weight:bold;font-size:25px;">Full stack developer</span>`
+                )
+                .pauseFor(2000)
+                // .deleteChars(20)
+                // .typeString("Frontend developer")
+                .start();
+            }}
+            options={{
+              // strings: ["I'm a Full stack developer", "I'm a MERN stack developer", "I'm a Frontend developer", "I'm a React developer"],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+          {/* <Typed
           strings={[
             "I'm a Full Stack Developer",
             "I Love Software Development",
@@ -60,72 +63,44 @@ function Home() {
           backSpeed={100}
           loop
         /> */}
-      {/* <h4>Welcome to my Portfolio</h4> */}
-      <div className='my-icons mt-3'>
-        <a href="https://github.com/Ramkumar-J"><img className='bg-white rounded-circle ms-0' src="https://img.icons8.com/ios-glyphs/50/github.png"></img></a>
-        <a href="https://www.linkedin.com/in/ramkumar-j-803baa201/"><img className='bg-white rounded-circle ms-5' src="https://img.icons8.com/fluency/50/linkedin-circled.png"></img></a>
-        {/* <a href="https://www.frontendmentor.io/profile/Ramkumar-J"><img className='bg-white rounded-circle ms-0 h-25 w-25' src="https://cdn.worldvectorlogo.com/logos/frontendmentor-logo.svg"></img></a> */}
-        {/* <img className='bg-white rounded-circle ms-5' src="https://img.icons8.com/color/50/gmail-new.png"></img> */}
-      </div>
-      {/* <div className='hire-btn-container'>
+          <div className="mt-3">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/Ramkumar-J"
+            >
+              <img
+                className="rounded-circle ms-0"
+                src="./assets/logos/github_logo3_home.png"
+                alt="Github logo"
+              ></img>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/ramkumar-j-803baa201/"
+            >
+              <img
+                className="rounded-circle ms-5"
+                src="./assets/logos/linkedin_logo.png"
+                alt="Linkedin logo"
+              ></img>
+            </a>
+          </div>
+          {/* <div className='hire-btn-container'>
       <button className="hire-btn"><a class="text-dark" href="">Hire Me</a></button>
       <button className="hire-btn"><a class="text-dark" href="">My Resume</a></button>
       </div> */}
-      {/* <h2>fullstack web developer</h2> */}
+        </div>
+        <About></About>
+        <Skills></Skills>
+        <Projects></Projects>
+        <Education></Education>
+        <Contact></Contact>
+        <Footer></Footer>
       </div>
-          {/* </div> */}
-          {/* <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 home-main-img'>
-          <img className='img-fluid img-main ms-4' src="./assets/23925(2).jpg"></img>
-          </div> */}
-        {/* </div> */}
-        
-      {/* <img className='img-fluid img-main ms-4' src="./assets/23925(2).jpg"></img> */}
-      {/* <motion.div animate={{ opacity: isVisible ? 1 : 0 }} /> */}
-      <About className='main-bg'></About>
-      {/* <hr className='text-danger'></hr>
-      <hr className='text-danger'></hr> */}
-      <Skills></Skills>
-      <Projects></Projects>
-      <Education></Education>
-      {/* <Experience></Experience> */}
-      <Contact></Contact>
-      <Footer></Footer>
-      </div>
-      </>
-
-    // <>
-    //   <div className='home-content home-bg'>
-    //     {/* <div className='overlay'></div>
-    //     <video className='bgvideo' src="./assets/Landingbgvideo.mp4" autoPlay loop muted></video> */}
-    //     <div className='contents'> 
-    //     <img className='home-img' src="https://ayushb.me/images/laptop.png"></img>
-    //   <p className='mb-0'>Hi, I am</p> 
-    //   <h1 className='myName mb-0'>Ramkumar J</h1>
-    //   <h4>Fullstack developer</h4>
-    //   {/* <h4>Welcome to my Portfolio</h4> */}
-    //   <div className='my-icons mt-3'>
-    //     <a href="https://github.com/Ramkumar-J"><img className='bg-white rounded-circle ms-0' src="https://img.icons8.com/ios-glyphs/50/github.png"></img></a>
-        
-    //     <a href="https://www.linkedin.com/in/ramkumar-j-803baa201/"><img className='bg-white rounded-circle ms-5' src="https://img.icons8.com/fluency/50/linkedin-circled.png"></img></a>
-    //     {/* <img className='bg-white rounded-circle ms-5' src="https://img.icons8.com/color/50/gmail-new.png"></img> */}
-    //   </div>
-    //   {/* <h2>fullstack web developer</h2> */}
-    //   </div>
-    //   <About className='main-bg'></About>
-    //   <Skills></Skills>
-    //   <Projects></Projects>
-    //   <Education></Education>
-    //   <Experience></Experience>
-    //   </div>
-     
-    //   </>
-
-    // <div className='container home-content'>
-    //   <p className='mb-0'>Hi, I am</p>
-    //   <h1>Ramkumar J</h1>
-    //   <h2>fullstack web developer</h2>
-    // </div>
-  )
+    </>
+  );
 }
 
 export default Home;

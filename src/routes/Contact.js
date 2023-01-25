@@ -53,7 +53,7 @@ function Contact() {
 
   return (
     <div className="container">
-      <h1 className="text-center mb-3" data-aos="fade-up">
+      <h1 className="text-center mb-3 mt-2" data-aos="fade-up">
         Get In Touch
       </h1>
       <div className="row mt-5" data-aos="fade-right">
@@ -70,6 +70,7 @@ function Contact() {
           <img
             className="img-fluid"
             src="./assets/images/contactus_image.png"
+            alt="Contact"
           ></img>
         </div>
         <div
@@ -88,6 +89,7 @@ function Contact() {
                 id="yourname"
                 type="text"
                 name="user_name"
+                placeholder="Enter Your Name"
                 required
               />
             </div>
@@ -102,6 +104,7 @@ function Contact() {
                 id="youremail"
                 type="email"
                 name="user_email"
+                placeholder="Enter Your E-mail"
                 required
               />
             </div>
@@ -116,6 +119,7 @@ function Contact() {
                 id="subject"
                 type="text"
                 name="subject"
+                placeholder="Enter Your Subject"
                 required
               />
             </div>
@@ -129,6 +133,7 @@ function Contact() {
                 className="input-field"
                 id="message"
                 name="message"
+                placeholder="Enter Your Message Here!"
                 required
               />
             </div>
