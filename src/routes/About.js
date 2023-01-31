@@ -43,7 +43,8 @@ function About() {
           <button className="btn btn-success">
             <a
               class="text-white fw-bolder"
-              href="https://drive.google.com/file/d/1nvr8xrHj5AkPMLyu-jCqhtqZYapXCVZ0/view?usp=sharing"
+              // href="https://drive.google.com/file/d/1nvr8xrHj5AkPMLyu-jCqhtqZYapXCVZ0/view?usp=sharing"
+              href="./assets/RamKumar FSD Resume.pdf"
               target="_blank"
               rel="noreferrer"
             >

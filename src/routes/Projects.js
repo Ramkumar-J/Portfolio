@@ -5,122 +5,146 @@ function Projects() {
   let projectData = [
     {
       title: "Chrome New Tab",
+      category: "Frontend",
       tools: "HTML,CSS",
       image: "./assets/images/Chrome Tab.jpg",
-      deploylink: "https://leafy-sunflower-5bad48.netlify.app",
+      deploylink: "https://chrome-new-tab.netlify.app",
       githublink: "https://github.com/Ramkumar-J/Google-Chrome-Newtab-Page",
     },
     {
-      title: "Product Preview Card",
-      tools: "HTML,CSS",
-      image: "./assets/images/product_preview_card.png",
-      deploylink: "https://creative-crisp-297b32.netlify.app",
-      githublink: "https://github.com/Ramkumar-J/FEM-Task-Product-Preview-Card",
+      title: "Restaurent App",
+      category: "Fullstack",
+      tools: "HTML,CSS,JS,Bootstrap,React,Mongodb,Nodejs",
+      image: "./assets/images/restaurent_app.jpg",
+      deploylink: "https://sanburg-restaurent.netlify.app",
+      githublink: "https://github.com/Ramkumar-J/Food-App-Frontend",
     },
     {
-      title: "QR Code Component",
-      tools: "HTML,CSS",
-      image: "./assets/images/qr_code_component.jpg",
-      deploylink: "https://fluffy-squirrel-6116f2.netlify.app",
-      githublink: "https://github.com/Ramkumar-J/FEM-Task-QRcode-Component",
+      title: "Pinterest clone",
+      category: "Fullstack",
+      tools: "HTML,CSS,JS,Bootstrap,React,Mongodb,Nodejs",
+      image: "./assets/images/pinterest_clone_app.webp",
+      deploylink: "https://pinterest-image-gallery.netlify.app",
+      githublink: "https://github.com/Ramkumar-J/Pinterest-Clone-Front-End",
     },
     {
-      title: "NFT Preview Card",
-      tools: "HTML,CSS",
-      image: "./assets/images/nft_preview_card.jpg",
-      deploylink: "https://visionary-biscuit-8c363e.netlify.app",
-      githublink: "https://github.com/Ramkumar-J/FEM-NFT-Preview-Card",
+      title: "Blog App",
+      category: "Fullstack",
+      tools: "HTML,CSS,JS,Bootstrap,React,Mongodb,Nodejs",
+      image: "./assets/images/blog_app.jpg",
+      deploylink: "https://blogers-junction.netlify.app",
+      githublink: "https://github.com/Ramkumar-J/Blogers-Junction-Frontend",
     },
     {
-      title: "Order Summary Card",
-      tools: "HTML,CSS",
-      image: "./assets/images/order_summary_card.webp",
-      deploylink: "https://luxury-kulfi-b8d372.netlify.app",
-      githublink: "https://github.com/Ramkumar-J/FEM-Order-Summary-Component",
+      title: "IE Tracker",
+      category: "Fullstack",
+      tools: "HTML,CSS,JS,Bootstrap,React,Mongodb,Nodejs",
+      image: "./assets/images/IE_tracker.jpg",
+      deploylink: "https://incomeexpense-tracker.netlify.app",
+      githublink: "https://github.com/Ramkumar-J/money-manager-backend",
     },
     {
       title: "Obesity Banner",
+      category:"Frontend",
       tools: "HTML,CSS,Bootstrap",
       image: "./assets/images/obesity_banner.webp",
       deploylink: "https://confident-joliot-fc1b5e.netlify.app",
       githublink: "https://github.com/Ramkumar-J/Zen-Day16-Bootstrap-Task3",
     },
     {
-      title: "Time Table",
+      title: "Portfolio",
+      category: "Frontend",
+      tools: "Reactjs",
+      image: "./assets/images/portfolio_app.jpg",
+      deploylink: "https://eclectic-paprenjak-b08705.netlify.app",
+      githublink: "https://github.com/Ramkumar-J/Portfolio",
+    },
+    {
+      title: "Client Details Form",
+      category: "Frontend",
       tools: "HTML,CSS",
-      image: "./assets/images/time_table_project.jpg",
-      deploylink: "https://courageous-druid-be0c1d.netlify.app",
-      githublink: "https://github.com/Ramkumar-J/Time-Table",
+      image: "./assets/images/client_details_form.jpg",
+      deploylink: "https://client-details-form.netlify.app",
+      githublink: "https://github.com/Ramkumar-J/Client-Details-Form",
     },
     {
       title: "Google Calendar Events",
-      tools: "JavaScript",
+      category: "Frontend",
+      tools: "HTML,CSS,JavaScript",
       image: "./assets/images/google_calendar_events.jpg",
-      deploylink: "https://prismatic-beignet-75437a.netlify.app",
+      deploylink: "https://g-calendar-events.netlify.app",
       githublink: "https://github.com/Ramkumar-J/Google-Calendar-Events-Task",
     },
     {
-      title: "Random Animal",
-      tools: "JavaScript",
-      image: "./assets/images/random_animal.jpg",
-      deploylink: "https://stirring-cuchufli-5f6f39.netlify.app",
-      githublink: "https://github.com/Ramkumar-J/Zen-Day25-API-Task1",
-    },
-    {
       title: "Random Quote Generator",
-      tools: "JavaScript",
+      category: "Frontend",
+      tools: "HTML,CSS,JavaScript",
       image: "./assets/images/random_quote_generator.png",
       deploylink: "https://tangerine-souffle-aa81d2.netlify.app",
       githublink: "https://github.com/Ramkumar-J/Zen-Day25-API-Task3",
     },
     {
-      title: "Blog App",
-      tools: "Fullstack",
-      image: "./assets/images/blog_app.jpg",
-      deploylink: "https://dapper-otter-9d489b.netlify.app",
-      githublink: "https://github.com/Ramkumar-J/Blogers-Junction-Frontend",
-    },
-    {
-      title: "Pinterest clone",
-      tools: "Fullstack",
-      image: "./assets/images/pinterest_clone_app.webp",
-      deploylink: "https://nimble-scone-6fb9aa.netlify.app",
-      githublink: "https://github.com/Ramkumar-J/Pinterest-Clone-Front-End",
-    },
-    {
-      title: "IE Tracker",
-      tools: "Fullstack",
-      image: "./assets/images/IE_tracker.jpg",
-      deploylink: "https://visionary-stardust-352866.netlify.app",
-      githublink: "https://github.com/Ramkumar-J/money-manager-frontend",
-    },
-    {
-      title: "Portfolio",
-      tools: "Reactjs",
-      image: "./assets/images/portfolio_app.jpg",
-      deploylink: "https://calm-banoffee-cf6f31.netlify.app",
-      githublink: "https://github.com/Ramkumar-J/Portfolio",
-    },
-    {
       title: "Shopping Page",
+      category: "Frontend",
       tools: "Reactjs",
       image: "./assets/images/shopping_page.webp",
       deploylink: "https://glowing-puppy-fb622f.netlify.app",
       githublink: "https://github.com/Ramkumar-J/Zen-Day27-Shop-homepage-Task",
     },
     {
-      title: "Restaurent App",
-      tools: "Fullstack",
-      image: "./assets/images/restaurent_app.jpg",
-      deploylink: "https://dapper-otter-9d489b.netlify.app",
-      githublink: "https://github.com/Ramkumar-J/Blogers-Junction-Frontend",
+      title: "Product Preview Card",
+      category: "Frontend",
+      tools: "HTML,CSS",
+      image: "./assets/images/product_preview_card.png",
+      deploylink: "https://fem-productpreviewcard.netlify.app",
+      githublink: "https://github.com/Ramkumar-J/FEM-Task-Product-Preview-Card",
     },
+    {
+      title: "NFT Preview Card",
+      category: "Frontend",
+      tools: "HTML,CSS",
+      image: "./assets/images/nft_preview_card.jpg",
+      deploylink: "https://fem-nftpreviewcard.netlify.app",
+      githublink: "https://github.com/Ramkumar-J/FEM-NFT-Preview-Card",
+    },
+    {
+      title: "Order Summary Card",
+      category: "Frontend",
+      tools: "HTML,CSS",
+      image: "./assets/images/order_summary_card.webp",
+      deploylink: "https://fem-ordersummarycard.netlify.app",
+      githublink: "https://github.com/Ramkumar-J/FEM-Order-Summary-Component",
+    },
+    {
+      title: "QR Code Component",
+      category: "Frontend",
+      tools: "HTML,CSS",
+      image: "./assets/images/qr_code_component.jpg",
+      deploylink: "https://fem-qrcodecomponent.netlify.app",
+      githublink: "https://github.com/Ramkumar-J/FEM-Task-QRcode-Component",
+    },
+    {
+      title: "Time Table",
+      category: "Frontend",
+      tools: "HTML,CSS",
+      image: "./assets/images/time_table_project.jpg",
+      deploylink: "https://html-timetable.netlify.app",
+      githublink: "https://github.com/Ramkumar-J/Time-Table",
+    },
+    // {
+    //   title: "Random Animal",
+    //   category: "Frontend",
+    //   tools: "HTML,CSS",
+    //   image: "./assets/images/random_animal.jpg",
+    //   deploylink: "https://stirring-cuchufli-5f6f39.netlify.app",
+    //   githublink: "https://github.com/Ramkumar-J/Zen-Day25-API-Task1",
+    // },  
   ];
 
   const [datafilter, setFilter] = useState(projectData);
-  const filterProduct = (tool) => {
+  const filterProduct = (category) => {
     const updatedlist = projectData.filter((e) => {
-      return e.tools === tool;
+      return e.category === category;
     });
     setFilter(updatedlist);
   };
@@ -152,7 +176,7 @@ function Projects() {
           >
             All
           </button>
-          <button
+          {/* <button
             className="category-btn"
             onClick={() => filterProduct("HTML,CSS")}
           >
@@ -169,6 +193,12 @@ function Projects() {
             onClick={() => filterProduct("Reactjs")}
           >
             Reactjs
+          </button> */}
+          <button
+            className="category-btn"
+            onClick={() => filterProduct("Frontend")}
+          >
+            Frontend
           </button>
           <button
             className="category-btn"
