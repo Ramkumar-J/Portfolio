@@ -44,7 +44,7 @@ function About() {
             <a
               class="text-white fw-bolder"
               // href="https://drive.google.com/file/d/1nvr8xrHj5AkPMLyu-jCqhtqZYapXCVZ0/view?usp=sharing"
-              href="./assets/RamKumar FSD Resume.pdf"
+              href="https://drive.google.com/file/d/1gHlv-7OagXZm_AwL6ruzqQEohcdkUpLh/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
