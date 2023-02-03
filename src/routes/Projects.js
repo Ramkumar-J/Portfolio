@@ -56,7 +56,7 @@ function Projects() {
       category: "Frontend",
       tools: "Reactjs",
       image: "./assets/images/portfolio_app.jpg",
-      deploylink: "https://eclectic-paprenjak-b08705.netlify.app",
+      deploylink: "https://ramkumar-j-portfolio.netlify.app",
       githublink: "https://github.com/Ramkumar-J/Portfolio",
     },
     {
