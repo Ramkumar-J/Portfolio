@@ -14,7 +14,7 @@ function Projects() {
     {
       title: "Restaurent App",
       category: "Fullstack",
-      tools: "HTML,CSS,JS,Bootstrap,React,Mongodb,Nodejs",
+      tools: "Reactjs,Mongodb,Nodejs",
       image: "./assets/images/restaurent_app.jpg",
       deploylink: "https://sanburg-restaurent.netlify.app",
       githublink: "https://github.com/Ramkumar-J/Food-App-Frontend",
@@ -22,7 +22,7 @@ function Projects() {
     {
       title: "Pinterest clone",
       category: "Fullstack",
-      tools: "HTML,CSS,JS,Bootstrap,React,Mongodb,Nodejs",
+      tools: "Reactjs,Mongodb,Nodejs",
       image: "./assets/images/pinterest_clone_app.webp",
       deploylink: "https://pinterest-image-gallery.netlify.app",
       githublink: "https://github.com/Ramkumar-J/Pinterest-Clone-Front-End",
@@ -30,7 +30,7 @@ function Projects() {
     {
       title: "Blog App",
       category: "Fullstack",
-      tools: "HTML,CSS,JS,Bootstrap,React,Mongodb,Nodejs",
+      tools: "Reactjs,Mongodb,Nodejs",
       image: "./assets/images/blog_app.jpg",
       deploylink: "https://blogers-junction.netlify.app",
       githublink: "https://github.com/Ramkumar-J/Blogers-Junction-Frontend",
@@ -38,14 +38,14 @@ function Projects() {
     {
       title: "IE Tracker",
       category: "Fullstack",
-      tools: "HTML,CSS,JS,Bootstrap,React,Mongodb,Nodejs",
+      tools: "Reactjs,Mongodb,Nodejs",
       image: "./assets/images/IE_tracker.jpg",
       deploylink: "https://incomeexpense-tracker.netlify.app",
       githublink: "https://github.com/Ramkumar-J/money-manager-backend",
     },
     {
       title: "Obesity Banner",
-      category:"Frontend",
+      category: "Frontend",
       tools: "HTML,CSS,Bootstrap",
       image: "./assets/images/obesity_banner.webp",
       deploylink: "https://confident-joliot-fc1b5e.netlify.app",
@@ -131,14 +131,6 @@ function Projects() {
       deploylink: "https://html-timetable.netlify.app",
       githublink: "https://github.com/Ramkumar-J/Time-Table",
     },
-    // {
-    //   title: "Random Animal",
-    //   category: "Frontend",
-    //   tools: "HTML,CSS",
-    //   image: "./assets/images/random_animal.jpg",
-    //   deploylink: "https://stirring-cuchufli-5f6f39.netlify.app",
-    //   githublink: "https://github.com/Ramkumar-J/Zen-Day25-API-Task1",
-    // },  
   ];
 
   const [datafilter, setFilter] = useState(projectData);

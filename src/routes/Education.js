@@ -4,27 +4,27 @@ function Education() {
   let educationData = [
     {
       title: "Fullstack development",
-      institute: "Guvi Geek Technologies Pvt Ltd",
-      duration: "Jan 2022-Jan 2023",
+      institute: "Guvi Geek Network Pvt Ltd - IITM Research park, Chennai",
+      duration: "Jan 2022 - Feb 2023",
       marks: "",
     },
     {
       title: "B.E-Electrical and Electronics Engineering",
       institute: "Anna university - Tuticorin campus, Tamilnadu",
-      duration: "2014-2018",
-      marks: "",
-      // marks:"CGPA - 6.33",
+      duration: "2014 - 2018",
+      // marks: "",
+      marks:"CGPA - 6.33",
     },
     {
       title: "Higher Secondary Education",
       institute: "Sakthi Matric.Hr.Sec.School,Kallakurichi(Dt), Tamilnadu",
-      duration: "2012-2014",
+      duration: "2012 - 2014",
       marks: "Pass - 87.25%",
     },
     {
       title: "Secondary Education",
       institute: "Government Boys.Hr.Sec.School,Kallakurichi(Dt), Tamilnadu",
-      duration: "2010-2012",
+      duration: "2010 - 2012",
       marks: "Pass - 89.25%",
     },
   ];
